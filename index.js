@@ -25,6 +25,8 @@ git remote add <<repository name for access in future>> <<repository link>>
 git branch -M main => define a branch for our workspace
 git push <<repository name>> <<branch name>> => send codes and changes to a remote repository;
 git pull => receive all codes and changes from a remote repository;
+git push <<repo name>> --delete <<branch name>> || git push <<repo name>> :<<branch name>> => delete a branch from remote repositroy
+git branch -D <<branch name>> => delete branch from git flow
 
 clip < <<file name>> => make a copy from content of this file in the clipboard;
 cd ~/<<folder name>> => enter to the directory whithout know the full directory path;
