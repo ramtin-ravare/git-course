@@ -47,10 +47,18 @@ git branch => show all branches;
 git branch <<name new branch>> => make a new branch;
 git checkout <<branch name>> => enter in this branch;
 git checkout -b <<branch name>> => make a new branch and switch to this branch;
+git pull <<repo name>> <<branch name>> => this merge the current branch to pull branch;
 
 tips:
     -- in most scenario we should first switch to master branch and then make a new branch
     -- when we clone a repo, the repo name reset and set to the "origin"
+
+--> git conflicts <--
+1. first enter to branch with conflict
+2. pull main branch
+3. resolve the conflict
+4. stage and commit the conflict resolve
+5. then we can pull main without problem
 
 */
 /*
