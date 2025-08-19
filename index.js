@@ -22,5 +22,5 @@ U file marker => untracked file
 A file marker => added file, a new file that begin to track by git
 M file marker => modified file
 stage => all changes those didn't commit yet
-commit => save all staged changes and empty the staged changes
+commit => save all staged changes and empty the stage
 */
