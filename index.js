@@ -22,8 +22,24 @@ git rm <<name file1>> <<name file2>> ... => remove commited files from directory
 git rm -r <<directory name>> ...=> remove directory form directory;
 
 git remote add <<repository name for access in future>> <<repository link>>
-git push <<repository name>> => send codes and changes to a remote repository;
+git branch -M main => define a branch for our workspace
+git push <<repository name>> <<branch name>> => send codes and changes to a remote repository;
 git pull => receive all codes and changes from a remote repository;
+
+clip < <<file name>> => make a copy from content of this file in the clipboard;
+cd ~/<<folder name>> => enter to the directory whithout know the full directory path;
+*.txt => this format use in .gitignore to ignore all .txt files;
+
+
+--> SSH configuration commands <--
+1. set a SSH key
+2. switch to ssh directory: cd ~/.ssh
+3. adding SSH key to ssh-agent and save it
+4. adding the ssh to github:
+    --> clip < id_rsa.pub
+    -- github > settings > SSH and GPG keys > new SSH Key
+    -- setting title and paste the key in key section and add the SSH
+5. SSH set on our github account and now we can send our project with SSH with all the previous commands
 
 */
 /*
@@ -33,4 +49,5 @@ A file marker => added file, a new file that begin to track by git
 M file marker => modified file
 stage => all changes those didn't commit yet
 commit => save all staged changes and empty the stage
+ssh => safer and faster protocol than https
 */
