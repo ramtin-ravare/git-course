@@ -12,8 +12,10 @@ ls => show all files in current directory
 git init => first git initialization for project;
 git status => show project current changes and current status;
 git add <<file name>> => for track a new file or staged new changes in a previous tracked file;
+git restore --stage <<file name>> => to unstage a file
 git add . => git will track changes in all files;
 git commit -m "any description to save current changes and stage" => save all staged changes and empty staged changes
+git log => show all commits
 
 */
 /*
