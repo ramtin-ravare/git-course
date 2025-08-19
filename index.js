@@ -46,6 +46,11 @@ git clone <<repository link>> => make a copy from repository to local computer;
 git branch => show all branches;
 git branch <<name new branch>> => make a new branch;
 git checkout <<branch name>> => enter in this branch;
+git checkout -b <<branch name>> => make a new branch and switch to this branch;
+
+tips:
+    -- in most scenario we should first switch to master branch and then make a new branch
+    -- when we clone a repo, the repo name reset and set to the "origin"
 
 */
 /*
