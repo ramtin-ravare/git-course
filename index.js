@@ -41,6 +41,12 @@ cd ~/<<folder name>> => enter to the directory whithout know the full directory 
     -- setting title and paste the key in key section and add the SSH
 5. SSH set on our github account and now we can send our project with SSH with all the previous commands
 
+--> Branchs <--
+git clone <<repository link>> => make a copy from repository to local computer;
+git branch => show all branches;
+git branch <<name new branch>> => make a new branch;
+git checkout <<branch name>> => enter in this branch;
+
 */
 /*
 --> git conventions <--
